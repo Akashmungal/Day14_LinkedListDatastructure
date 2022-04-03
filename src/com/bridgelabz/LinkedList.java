@@ -5,7 +5,6 @@ public class LinkedList {
 
     static int size;
 
-
     public void addFirst(int data) {
         Node newNode = new Node(data);
         if (head == null) {
